@@ -1,0 +1,18 @@
+/* src/index.css */
+* { box-sizing: border-box; }
+
+html, body {
+  height: auto;
+}
+
+body {
+  margin: 0;
+  display: block;      /* <- quita el flex de Vite */
+  min-height: 100vh;
+  overflow-y: auto;    /* <- permite ver lo de abajo */
+}
+
+#root {
+  width: 100%;
+  height: auto;
+}
